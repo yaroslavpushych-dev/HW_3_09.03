@@ -1,0 +1,41 @@
+table {
+    border: 3px solid red;
+    width: 400px;
+    border-spacing: 1px;
+}
+
+td,
+th {
+    border: 1px solid blue;
+    text-align: center;
+}
+
+th {
+    background-color: #FFE5C4;
+}
+
+table>tbody>tr>td:first-of-type {
+    background-color: #00FFFF;
+}
+
+tfoot {
+    background-color: #E8977C;
+}
+
+table>caption {
+    color: red;
+    font-size: 20px;
+}
+
+table>caption::after {
+    content: "#05";
+    color: #8426CE;
+}
+
+table>tbody>tr:nth-child(2n+1) {
+    background-color: #BDB76B;
+}
+
+table>tbody>tr:nth-child(2n) {
+    background-color: #D3D3D3;
+}
